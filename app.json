@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-project-1",
-    "slug": "rn-project-1",
+    "name": "image-to-pdf",
+    "slug": "image-to-pdf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iceinvein.imagetopdf"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.iceinvein.imagetopdf"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f25bc160-d4e1-413c-912b-dd3ead988ae5"
+      }
     }
   }
 }
